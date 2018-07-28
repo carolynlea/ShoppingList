@@ -13,17 +13,19 @@ class AddItemViewController: UIViewController
 
     @IBOutlet weak var addItemTextfield: UITextField!
     
+    var itemController = ItemController()
     
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
-
-        
-    }
-
     
     @IBAction func save(_ sender: Any)
     {
+        guard let shoppingItem = addItemTextfield.text else {return}
+        itemController.createShoppingItem(shoppingItem: shoppingItem)
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue:"load"), object: nil)
+        
+        addItemTextfield.text = ""
+        addItemTextfield.resignFirstResponder()
+        
         
     }
     

@@ -8,9 +8,12 @@
 
 import Foundation
 
-class ShoppingItem
+class ShoppingItem: Equatable
 {
-
+    static func == (lhs: ShoppingItem, rhs: ShoppingItem) -> Bool {
+        return lhs.shoppingItem == rhs.shoppingItem
+    }
+    
     var shoppingItem: String
     
     init(shoppingItem: String)

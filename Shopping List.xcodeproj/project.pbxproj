@@ -15,6 +15,7 @@
 		DE4B9E8F210C1E2B00D46FC2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E8E210C1E2B00D46FC2 /* ListViewController.swift */; };
 		DE4B9E91210C1FB700D46FC2 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E90210C1FB700D46FC2 /* ShoppingItem.swift */; };
 		DE4B9E93210C200800D46FC2 /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E92210C200800D46FC2 /* ItemController.swift */; };
+		DE4B9E95210C330800D46FC2 /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E94210C330800D46FC2 /* CombinedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DE4B9E8E210C1E2B00D46FC2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		DE4B9E90210C1FB700D46FC2 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
 		DE4B9E92210C200800D46FC2 /* ItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		DE4B9E94210C330800D46FC2 /* CombinedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DE4B9E78210C1A0A00D46FC2 /* AppDelegate.swift */,
+				DE4B9E94210C330800D46FC2 /* CombinedViewController.swift */,
 				DE4B9E90210C1FB700D46FC2 /* ShoppingItem.swift */,
 				DE4B9E92210C200800D46FC2 /* ItemController.swift */,
 				DE4B9E8C210C1D6200D46FC2 /* AddItemViewController.swift */,
@@ -149,6 +152,7 @@
 				DE4B9E79210C1A0A00D46FC2 /* AppDelegate.swift in Sources */,
 				DE4B9E93210C200800D46FC2 /* ItemController.swift in Sources */,
 				DE4B9E8F210C1E2B00D46FC2 /* ListViewController.swift in Sources */,
+				DE4B9E95210C330800D46FC2 /* CombinedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
